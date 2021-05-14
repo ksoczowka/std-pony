@@ -18,7 +18,7 @@ public:
     void push_back(T); //todo
 
     bool operator==(pony&);
-    pony& operator=(pony&); //todo
+    pony& operator=(pony&);
     T operator[](unsigned long index) { return *(head + index); }
 
 private:
